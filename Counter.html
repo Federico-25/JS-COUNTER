@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="counter.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+  <link rel="stylesheet" href="webfonts/all.css">
+    <script src='counter.js'></script>
+    <title>Counter</title>
+  </head>
+  <body>
+<div class="counter">
+  <div class="text">
+  <h3>Contatore</h3>
+  <h4 id='res'>0</h4>
+</div>
+  <div class="icons">
+ <button id ='meno' onclick='less()'><i class="fas fa-minus min"></i></button>
+ <button id='plus' onclick='more()'><i class="fas fa-plus more"></i></button>
+</div>
+ <p>Fai click sui pulsanti e inizia a contare!</p>
+</div>
+
+<button id='reset' onclick='reset()'>Reset</button>
+  </body>
+</html>
